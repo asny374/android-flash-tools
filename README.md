@@ -51,4 +51,3 @@ app/src/main/java/com/dz/fastboototg 下：ui 为 Compose 页面，usb 为 fastb
 ## 许可证
 
 项目自有代码暂未指定许可证，不应视为已授予开源使用许可。第三方代码按其原有许可证保留，见 THIRD_PARTY_NOTICES.md。发布者需要在选择项目许可证前核实代码来源与分发要求。
-

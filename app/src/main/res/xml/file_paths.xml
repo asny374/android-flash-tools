@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <!-- ADB 拉取的文件 -->
+    <external-files-path name="adb_files" path="adb/" />
+    <!-- 导出的日志 zip -->
+    <external-files-path name="export" path="export/" />
+</paths>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 界面完全由 Compose 绘制：必须关掉系统 ActionBar，
+         否则它会按 Manifest label 再画一遍应用名，和 TopAppBar 重复 -->
+    <style name="Theme.FastbootOtg" parent="android:Theme.DeviceDefault.DayNight">
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+</resources>

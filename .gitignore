@@ -1,0 +1,41 @@
+# 构建产物
+build/
+*/build/
+.cxx/
+captures/
+.externalNativeBuild/
+
+# Gradle
+.gradle/
+
+# IDE
+.idea/
+*.iml
+.vs/
+
+# 本机配置（含 SDK 路径、代理、签名信息）
+local.properties
+
+# release 密钥库（不入库）
+release.keystore
+*.jks
+
+# 发布目录（安装包属构建产物）
+apk-download/
+
+# 工作区数据
+.workbuddy/
+
+# Kotlin 编译器日志
+.kotlin/
+
+*.keystore
+*.p12
+*.pem
+*.apk
+*.aab
+*.log
+.env
+.env.*
+outputs/
+work/
