@@ -36,18 +36,7 @@ sh ./gradlew assembleDebug testDebugUnitTest lintDebug
 
 APK 位于 app/build/outputs/apk/debug/app-debug.apk。依赖下载需要网络；如需代理，请配置个人 ~/.gradle/gradle.properties，不要提交代理到仓库。
 
-## 签名
-
-Debug 自动使用开发签名。Release 未配置时为未签名 APK。正式发布请自行创建并妥善保存密钥，将 release.storeFile、release.storePassword、release.keyAlias、release.keyPassword 放在 local.properties，再执行 assembleRelease。不要提交密钥或密码。
-
-## GitHub
-
-上传本目录的内容（包括 .github 和 gradle/wrapper），不要只上传 ZIP。推送或 PR 后 Actions 会构建、测试、Lint，并保存 Debug APK 与报告。云端流程尚待首次推送验证，不会自动发布 Release。
 
 ## 代码结构
 
 app/src/main/java/com/dz/fastboototg 下：ui 为 Compose 页面，usb 为 fastboot/ADB 协议，flash 为镜像校验与刷写，core 为状态与日志。app/src/main/cpp 为 JNI 和 libusb；app/src/test 为 JVM 回归测试。
-
-## 许可证
-
-项目自有代码暂未指定许可证，不应视为已授予开源使用许可。第三方代码按其原有许可证保留，见 THIRD_PARTY_NOTICES.md。发布者需要在选择项目许可证前核实代码来源与分发要求。
